@@ -20,3 +20,6 @@ templates/.DS_Store
 templates.
 templates/
 /.DS_Store
+
+# dashboard is its own repo; don't track it here
+dashboard/
