@@ -1,0 +1,24 @@
+title: RiotPlan Documentation
+description: Framework for long-lived, stateful AI workflows
+theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# GitHub Pages
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Guides
+    url: /guides/getting-started
+  - title: Packages
+    url: /packages/riotplan
+  - title: API
+    url: /api/core
+
