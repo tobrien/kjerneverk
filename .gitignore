@@ -23,3 +23,6 @@ templates/
 
 # dashboard is its own repo; don't track it here
 dashboard/
+
+# commands-step is its own repo; do not track here
+commands-step/
