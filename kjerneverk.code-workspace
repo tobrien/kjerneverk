@@ -39,6 +39,30 @@
 		{
 			"name": "kjerneverk",
 			"path": "."
+		},
+		{
+			"path": "commands-step"
+		},
+		{
+			"path": "commands-plan"
+		},
+		{
+			"path": "commands-status"
+		},
+		{
+			"path": "commands-feedback"
+		},
+		{
+			"path": "commands-render"
+		},
+		{
+			"path": "history"
+		},
+		{
+			"path": "renderer"
+		},
+		{
+			"path": "templates"
 		}
 	],
 	"settings": {}
