@@ -1,69 +1,34 @@
 {
 	"folders": [
 		{
-			"name": "agentic",
 			"path": "agentic"
 		},
 		{
-			"name": "execution",
 			"path": "execution"
 		},
 		{
-			"name": "execution-anthropic",
 			"path": "execution-anthropic"
 		},
 		{
-			"name": "execution-gemini",
 			"path": "execution-gemini"
 		},
 		{
-			"name": "execution-openai",
 			"path": "execution-openai"
 		},
 		{
-			"name": "riotplan",
 			"path": "riotplan"
 		},
 		{
-			"name": "riotplan-cli",
 			"path": "riotplan-cli"
 		},
 		{
-			"name": "riotprompt",
 			"path": "riotprompt"
 		},
 		{
-			"name": "riotprompt-cli",
 			"path": "riotprompt-cli"
 		},
 		{
-			"name": "kjerneverk",
 			"path": "."
-		},
-		{
-			"path": "commands-step"
-		},
-		{
-			"path": "commands-plan"
-		},
-		{
-			"path": "commands-status"
-		},
-		{
-			"path": "commands-feedback"
-		},
-		{
-			"path": "commands-render"
-		},
-		{
-			"path": "history"
-		},
-		{
-			"path": "renderer"
-		},
-		{
-			"path": "templates"
 		}
-	],
-	"settings": {}
+	]
 }
