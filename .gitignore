@@ -12,6 +12,7 @@ execution/
 history/
 node_modules/
 renderer/
+riotdoc/
 riotplan-cli/
 riotplan/
 riotprompt-cli/
