@@ -1,33 +1,55 @@
 {
 	"folders": [
 		{
-			"path": "agentic"
+			"name": "riotdoc",
+			"path": "riotdoc"
 		},
 		{
-			"path": "execution"
-		},
-		{
-			"path": "execution-anthropic"
-		},
-		{
-			"path": "execution-gemini"
-		},
-		{
-			"path": "execution-openai"
-		},
-		{
+			"name": "riotplan",
 			"path": "riotplan"
 		},
 		{
-			"path": "riotplan-cli"
-		},
-		{
+			"name": "riotprompt",
 			"path": "riotprompt"
 		},
 		{
-			"path": "riotprompt-cli"
+			"name": "agentic",
+			"path": "agentic"
 		},
 		{
+			"name": "commands-step",
+			"path": "commands-step"
+		},
+		{
+			"name": "docs",
+			"path": "docs"
+		},
+		{
+			"name": "execution",
+			"path": "execution"
+		},
+		{
+			"name": "execution-anthropic",
+			"path": "execution-anthropic"
+		},
+		{
+			"name": "execution-gemini",
+			"path": "execution-gemini"
+		},
+		{
+			"name": "execution-openai",
+			"path": "execution-openai"
+		},
+		{
+			"name": "node_modules",
+			"path": "node_modules"
+		},
+		{
+			"name": "prompts",
+			"path": "prompts"
+		},
+		{
+			"name": "kjerneverk",
 			"path": "."
 		}
 	]
