@@ -45,12 +45,12 @@
 			"path": "node_modules"
 		},
 		{
-			"name": "prompts",
-			"path": "prompts"
-		},
-		{
 			"name": "kjerneverk",
 			"path": "."
+		},
+		{
+			"name": "prompts",
+			"path": "prompts"
 		}
 	]
 }
