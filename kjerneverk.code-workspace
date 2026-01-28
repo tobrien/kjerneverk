@@ -41,16 +41,8 @@
 			"path": "execution-openai"
 		},
 		{
-			"name": "node_modules",
-			"path": "node_modules"
-		},
-		{
 			"name": "kjerneverk",
 			"path": "."
-		},
-		{
-			"name": "prompts",
-			"path": "prompts"
 		}
 	]
 }
