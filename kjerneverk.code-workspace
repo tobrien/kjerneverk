@@ -17,14 +17,6 @@
 			"path": "agentic"
 		},
 		{
-			"name": "commands-step",
-			"path": "commands-step"
-		},
-		{
-			"name": "docs",
-			"path": "docs"
-		},
-		{
 			"name": "execution",
 			"path": "execution"
 		},
