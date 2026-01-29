@@ -1,3 +1,59 @@
+verbose: false
+model: gpt-5.2
+openaiReasoning: low
+openaiMaxOutputTokens: 10000
 contextDirectories:
   - .kodrdriv/context
-
+commit:
+  add: true
+  cached: true
+  sendit: true
+  push: true
+  openaiReasoning: low
+  openaiMaxOutputTokens: 10000
+  agentic: true
+  maxAgenticIterations: 15  # Allow more investigation (default: 10)
+  allowCommitSplitting: true  # Enable split recommendations
+  toolTimeout: 30000  # 30 second timeout for tools
+  selfReflection: true  # Enable self-reflection
+release:
+  openaiReasoning: low
+  openaiMaxOutputTokens: 10000
+  agentic: true
+  selfReflection: true
+  maxAgenticIterations: 30  # Default for releases (higher than commit's 15)
+publish:
+  mergeMethod: merge
+  dependencyUpdatePatterns: ["@theunwalked/*", "@riotprompt/*", "@fjell/*"]
+  requiredEnvVars: []
+  skipAlreadyPublished: true
+  agenticPublish: true
+link:
+  scopeRoots:
+    "@theunwalked": "../../utilarium"
+    "@riotprompt": "../../kjerneverk"
+    "@doccident": "../../verifikasjon"
+    "@grunnverk": "../../grunnverk"
+    "@fjell": "../../fjellgrunn"
+    "@redaksjon": "../../redaksjon"
+    "@girverket": "../../girverket"
+    "@tobrien": "../../tobrien"
+  externalLinkPatterns:
+    - "@riotprompt"
+    - "@theunwalked"
+    - "@doccident"
+    - "@fjell"
+    - "@redaksjon"
+    - "@girverket"
+    - "@tobrien"
+stopContext:
+  enabled: true
+  strings:
+    - "tobrien"
+    - "Tim O'Brien"
+    - "fjell"
+    - "wagnerskis"
+    - "Wagner"
+    - "Ullr"
+    - "jafarisimran"
+    - "Walmart"
