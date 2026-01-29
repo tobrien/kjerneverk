@@ -1,0 +1,29 @@
+Implement a comprehensive 8-stage plan lifecycle system for riotplan:
+
+1. Idea - Exploration phase for capturing intent without commitment. Support brainstorming, note-taking, forking ideas, and killing plans. No execution allowed.
+
+2. Shaping - Conceptual development where loose ideas become coherent. Support defining scope, comparing alternatives, identifying assumptions, and sketching milestones.
+
+3. Built - Formalized plan with concrete structure. Write full plan with steps, dependencies, estimates, and provisional owners. Still unvalidated.
+
+4. Analyzed - Validation phase where plan meets reality. Support risk analysis, scenario testing, peer/AI critique, and ability to send plan backward to Shaping or Built.
+
+5. Approved - Explicit commitment point. Lock scope, allocate resources, schedule execution. This is a decision state, not work.
+
+6. Executing - Active work phase. Execute tasks, track progress, log discoveries, support in-progress revisions with justification and versioning.
+
+7. Done - Completion state. Record outcomes (success/partial/failure), capture lessons learned, compare expected vs actual results.
+
+8. Archived - Cold storage. Read-only, searchable, forkable as template for future plans.
+
+Key features needed:
+- State machine with explicit transitions (including backward)
+- Revision semantics (major vs minor, versioning, history)
+- State-specific allowed/disallowed actions
+- Transition validation and justification
+- CLI commands for all lifecycle operations
+- MCP tools and resources for lifecycle management
+- Migration path for existing plans
+- Comprehensive documentation
+
+Core principle: Creating a plan ≠ committing to it. Backward transitions are intelligence, not failure.

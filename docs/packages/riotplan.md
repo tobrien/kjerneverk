@@ -18,6 +18,7 @@ npm install @riotprompt/riotplan
 - **Plan Registry**: Discover and track plans across directories
 - **Retrospectives**: Generate RETROSPECTIVE.md for completed plans
 - **Execution**: Framework for automated step execution
+- **MCP Server**: Model Context Protocol integration for AI assistants (see [MCP Integration](#mcp-integration))
 
 ## Quick Start
 
@@ -95,11 +96,62 @@ await completeStep(plan, 1);
 - `generateRetrospective(plan)` - Generate retrospective data
 - `createRetrospective(plan)` - Create RETROSPECTIVE.md
 
+## MCP Integration
+
+RiotPlan is available as an MCP (Model Context Protocol) server, allowing AI assistants like Cursor to manage plans directly.
+
+### Installation for MCP
+
+```bash
+npm install -g @riotprompt/riotplan
+```
+
+### Cursor Configuration
+
+Add to `~/.cursor/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "riotplan": {
+      "command": "npx",
+      "args": ["-y", "@riotprompt/riotplan", "riotplan-mcp"]
+    }
+  }
+}
+```
+
+### Available Tools
+
+- `riotplan_create` - Create new plans with AI
+- `riotplan_status` - Show plan status and progress
+- `riotplan_step_list` - List all steps
+- `riotplan_step_start` - Mark step as started
+- `riotplan_step_complete` - Mark step as completed
+- `riotplan_step_add` - Add new steps
+- `riotplan_validate` - Validate plan structure
+- `riotplan_generate` - Generate with AI
+
+### Resources
+
+- `riotplan://plan/{path}` - Plan metadata
+- `riotplan://status/{path}` - Current status
+- `riotplan://steps/{path}` - All steps
+- `riotplan://step/{path}?number=N` - Specific step
+
+### Prompts
+
+- `create_plan` - Plan creation workflow
+- `execute_step` - Step execution workflow
+- `track_progress` - Progress tracking workflow
+
+See the [MCP Guide](../../riotplan/guide/mcp.md) or [README](../../riotplan/README.md#mcp-integration) for detailed documentation.
+
 ## Types
 
 See the [API Reference](../api/core.md) for complete type definitions.
 
 ## License
 
-MIT
+Apache-2.0
 
