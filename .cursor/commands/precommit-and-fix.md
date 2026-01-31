@@ -1,1 +1,0 @@
-I want you to run "kodrdriv tree precommit" from the root redaksjon/ directory, and I want you to fix bugs are they are identified.    Keep on running "kodrdriv tree precommit" until it runs.

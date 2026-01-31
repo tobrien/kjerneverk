@@ -24,13 +24,13 @@ release:
   maxAgenticIterations: 30  # Default for releases (higher than commit's 15)
 publish:
   mergeMethod: merge
-  dependencyUpdatePatterns: ["@theunwalked/*", "@riotprompt/*", "@fjell/*"]
+  dependencyUpdatePatterns: ["@utilarium/*", "@riotprompt/*", "@fjell/*"]
   requiredEnvVars: []
   skipAlreadyPublished: true
   agenticPublish: true
 link:
   scopeRoots:
-    "@theunwalked": "../../utilarium"
+    "@utilarium": "../../utilarium"
     "@riotprompt": "../../kjerneverk"
     "@doccident": "../../verifikasjon"
     "@grunnverk": "../../grunnverk"
@@ -40,7 +40,7 @@ link:
     "@tobrien": "../../tobrien"
   externalLinkPatterns:
     - "@riotprompt"
-    - "@theunwalked"
+    - "@utilarium"
     - "@doccident"
     - "@fjell"
     - "@redaksjon"

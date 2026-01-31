@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/kjerneverk/riotplan/main/schemas/config.schema.json",
+  "title": "RiotPlan Configuration",
+  "description": "Configuration file for RiotPlan project settings",
+  "type": "object",
+  "properties": {
+    "planDirectory": {
+      "type": "string",
+      "description": "Path to the directory where plans are stored. Can be relative (to config file) or absolute.",
+      "examples": [
+        "./plans",
+        "../shared-plans",
+        "/absolute/path/to/plans"
+      ]
+    },
+    "defaultProvider": {
+      "type": "string",
+      "description": "Default AI provider to use for plan generation",
+      "enum": ["anthropic", "openai", "gemini"],
+      "default": "anthropic"
+    },
+    "defaultModel": {
+      "type": "string",
+      "description": "Default model to use for plan generation",
+      "examples": [
+        "claude-3-5-sonnet-20241022",
+        "gpt-4",
+        "gemini-pro"
+      ]
+    },
+    "templateDirectory": {
+      "type": "string",
+      "description": "Path to custom plan templates directory",
+      "examples": [
+        "./templates",
+        "./.riotplan/templates"
+      ]
+    }
+  },
+  "required": [],
+  "additionalProperties": true
+}

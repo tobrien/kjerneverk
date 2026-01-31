@@ -1,0 +1,7 @@
+{
+  "$schema": "https://raw.githubusercontent.com/kjerneverk/riotplan/main/schemas/config.schema.json",
+  "planDirectory": "./plans",
+  "comments": {
+    "planDirectory": "Relative or absolute path to the directory where plans are stored. Relative paths are resolved from the config file location."
+  }
+}
