@@ -35,6 +35,9 @@
 		{
 			"name": "kjerneverk",
 			"path": "."
+		},
+		{
+			"path": "kjerneverk.github.io"
 		}
 	]
 }
