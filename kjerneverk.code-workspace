@@ -40,5 +40,9 @@
 			"name": "kjerneverk",
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"git.autoRepositoryDetection": true,
+		"git.detectSubmodules": true
+	}
 }
