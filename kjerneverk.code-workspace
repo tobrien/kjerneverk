@@ -33,11 +33,12 @@
 			"path": "execution-openai"
 		},
 		{
-			"name": "kjerneverk",
-			"path": "."
+			"name": "kjerneverk.github.io",
+			"path": "kjerneverk.github.io"
 		},
 		{
-			"path": "kjerneverk.github.io"
+			"name": "kjerneverk",
+			"path": "."
 		}
 	]
 }

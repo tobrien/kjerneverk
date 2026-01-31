@@ -1,9 +1,6 @@
 .env
 *~
 agentic/
-commands-feedback/
-commands-plan/
-commands-render/
 commands-status/
 execution-anthropic/
 execution-gemini/
