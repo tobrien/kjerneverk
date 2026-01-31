@@ -43,6 +43,7 @@
 	],
 	"settings": {
 		"git.autoRepositoryDetection": true,
-		"git.detectSubmodules": true
+		"git.detectSubmodules": true,
+		"scm.repositories.visible": 20
 	}
 }
