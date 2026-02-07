@@ -1,0 +1,13 @@
+# Repository list for kjerneverk
+# Add one repository URL per line
+# Lines starting with # are comments and will be ignored
+
+https://github.com/kjerneverk/riotdoc.git
+https://github.com/kjerneverk/riotplan.git
+https://github.com/kjerneverk/riotprompt.git
+https://github.com/kjerneverk/agentic.git
+https://github.com/kjerneverk/execution.git
+https://github.com/kjerneverk/execution-anthropic.git
+https://github.com/kjerneverk/execution-gemini.git
+https://github.com/kjerneverk/execution-openai.git
+https://github.com/kjerneverk/kjerneverk.github.io.git
