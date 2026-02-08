@@ -6,6 +6,7 @@ execution-anthropic/
 execution-gemini/
 execution-openai/
 execution/
+execution-sampling/
 history/
 node_modules/
 renderer/

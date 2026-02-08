@@ -33,6 +33,10 @@
 			"path": "execution-openai"
 		},
 		{
+			"name": "execution-sampling",
+			"path": "execution-sampling"
+		},
+		{
 			"name": "kjerneverk.github.io",
 			"path": "kjerneverk.github.io"
 		},
