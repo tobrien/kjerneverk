@@ -9,6 +9,10 @@
 			"path": "riotplan"
 		},
 		{
+			"name": "riotplan-catalyst",
+			"path": "riotplan-catalyst"
+		},
+		{
 			"name": "riotprompt",
 			"path": "riotprompt"
 		},
