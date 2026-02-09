@@ -1,41 +1,53 @@
-# global-riotplan-rules
+# Plan Summary: RiotPlan Catalysts
 
 ## Overview
+Implement a **Catalyst** system for RiotPlan -- composable, layerable guidance packages that shape the entire planning process. A catalyst is a collection of resources (questions, constraints, output templates, domain knowledge, process guidance, validation rules) that affects how plans are created, what questions are asked, and what outputs are expected.
 
-Implement project-specific plan rules system that allows users to define rules for plan creation and validation. Rules are stored in configuration files and automatically applied during plan generation and validation.
+## Origin
+This plan evolved from a simpler "global plan rules" concept. The original idea was to add `planRules` and `validationRules` arrays to the riotplan config. Through exploration, the concept grew into Catalysts -- a much richer, more flexible system where rules are just one of six facets.
+
+## Selected Approach: Foundation-First
+Build the catalyst engine as a separate `@kjerneverk/riotplan-catalyst` package with local directory support first, then integrate into riotplan. NPM distribution deferred to a future phase.
 
 ## Goals
-
-1. Extend config schema to support `planRules` and `validationRules` (arrays of freeform markdown strings)
-2. Inject creation rules into plan generator as guidance
-3. Run validation rules after plan creation and during feedback iterations
-4. Maintain backward compatibility (rules are optional)
+1. Create the `@kjerneverk/riotplan-catalyst` package with catalyst schema, loading, and merging
+2. Define the plan manifest (`plan.yaml`) that records catalyst associations
+3. Integrate catalysts into riotplan's config, generator, and MCP tools
+4. Ensure catalyst traceability -- plans clearly show which catalysts influenced them
+5. Maintain full backward compatibility -- no catalysts = no behavior change
 
 ## Scope
 
-### In Scope
+### In Scope (This Plan)
+- Phase 1: `@kjerneverk/riotplan-catalyst` package (schema, loader, merger, plan manifest)
+- Phase 2: Riotplan integration (config, generator, MCP tools, traceability)
 
-- Config schema extension
-- Plan generator integration
-- Validation rules execution
-- Integration with existing plan creation flow
-- Integration with feedback flow
+### Out of Scope (Future Work)
+- Phase 3: NPM distribution (resolve catalysts from node_modules)
+- Catalyst incompatibility detection
+- Catalyst taxonomy/typing (technology vs domain vs organization)
+- Catalyst configuration overrides per plan
+- Plan output directory for generated artifacts
+- Catalyst influence on explore_idea and shape_approach MCP prompts
 
-### Out of Scope
+## Key Decisions
+- **Package name**: `@kjerneverk/riotplan-catalyst` (not `@kjerneverk/catalyst`, to avoid namespace pollution if riotdoc gets its own catalyst concept)
+- **Catalyst identity**: directory-based with `catalyst.yml` manifest
+- **Catalyst ID = NPM package name** (with optional scope, e.g. `@kjerneverk/catalyst-nodejs`)
+- **Six facets**: questions, constraints, output templates, domain knowledge, process guidance, validation rules
+- **Merge strategy**: ordered concatenation with source attribution (no conflict resolution in v1)
+- **Plan manifest**: `plan.yaml` with title, ID, and catalyst IDs
+- **Selection channels**: config (defaults), CLI (per-plan), MCP (interactive)
+- **Backward compatible**: no catalysts configured = no behavior change
 
-- Conditional rules (keep it simple for now)
-- Rule directory approach (config file only)
-- Structured rule format (freeform markdown only)
+## What is a Catalyst?
+A catalyst is "a collection of resources that affects the questions asked and the process used to come up with a plan." It provides guidance, not dictation -- guardrails that help identify areas needing attention.
 
-## Success Criteria
+### Catalyst Dimensions (Orthogonal)
+- **Technology**: Java, Node.js, Ruby, React
+- **Domain**: Finance, Legal, Technology
+- **Project**: Specific to a repository or codebase
+- **Organization**: Company or team conventions (Kjerneverk, etc.)
+- **Personal**: Individual standards across all projects
 
-- [ ] Config schema includes optional `planRules` and `validationRules` properties
-- [ ] Plan generator receives and applies creation rules when present
-- [ ] Validation rules run after plan creation
-- [ ] Validation rules run during feedback iterations
-- [ ] Existing functionality unchanged when no rules are defined
-- [ ] Documentation updated
-
----
-
-*Plan created: 2026-01-31*
+Multiple catalysts from different dimensions can be layered together.

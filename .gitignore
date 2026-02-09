@@ -11,6 +11,7 @@ history/
 node_modules/
 renderer/
 riotdoc/
+riotplan-catalyst/
 riotplan-cli/
 riotplan/
 riotprompt-cli/
