@@ -15,6 +15,7 @@ riotplan-catalyst/
 riotplan-cli/
 riotplan/
 riotprompt-cli/
+riotplan-format/
 riotprompt/
 templates/.DS_Store
 templates.

@@ -50,6 +50,27 @@ cd /path/to/kjerneverk
   - ✗ (red) - Failed or has uncommitted changes
 - Summary of successful and failed operations
 
+### `pull-all.sh`
+
+Pulls from origin for all kjerneverk projects on their current branches.
+
+**Usage:**
+
+```bash
+cd /path/to/kjerneverk
+./bin/pull-all.sh
+```
+
+**Features:**
+- Pulls from origin for each project's current branch
+- Skips repositories with uncommitted changes or untracked files
+- Shows status with colored indicators:
+  - ✓ (green) - Successfully pulled changes
+  - → (blue) - Already up to date
+  - ⊙ (yellow) - Skipped due to uncommitted changes or untracked files
+  - ✗ (red) - Failed to pull
+- Summary of successful, skipped, and failed operations
+
 ## Initial Setup
 
 1. Clone the kjerneverk repository:
