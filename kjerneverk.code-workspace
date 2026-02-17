@@ -13,6 +13,10 @@
 			"path": "riotplan-catalyst"
 		},
 		{
+			"name": "riotplan-vscode",
+			"path": "riotplan-vscode"
+		},
+		{
 			"name": "riotprompt",
 			"path": "riotprompt"
 		},
