@@ -113,11 +113,11 @@ This leverages the existing retrospective generation system but adds automatic t
 
 ## Acceptance Criteria
 
-- [ ] completeStep() integrates verification without breaking existing API
-- [ ] Verification errors provide clear, actionable messages
-- [ ] Force flag bypasses verification as expected
-- [ ] Automatic retrospectives generate when plans complete
-- [ ] Performance impact is minimal (verification cached where possible)
+- [x] completeStep() integrates verification without breaking existing API
+- [x] Verification errors provide clear, actionable messages
+- [x] Force flag bypasses verification as expected
+- [x] Automatic retrospectives generate when plans complete
+- [x] Performance impact is minimal (verification cached where possible)
 
 ## Testing
 

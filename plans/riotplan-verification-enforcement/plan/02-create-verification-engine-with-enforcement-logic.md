@@ -96,10 +96,10 @@ This implements the three-level enforcement model from the selected approach.
 
 ## Acceptance Criteria
 
-- [ ] VerificationEngine can check acceptance criteria in markdown files
-- [ ] Engine correctly implements advisory/interactive/strict enforcement levels
-- [ ] Force flag bypasses all verification checks
-- [ ] Engine returns structured results with clear messages
+- [x] VerificationEngine can check acceptance criteria in markdown files
+- [x] Engine correctly implements advisory/interactive/strict enforcement levels
+- [x] Force flag bypasses all verification checks
+- [x] Engine returns structured results with clear messages
 
 ## Testing
 

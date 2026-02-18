@@ -149,9 +149,9 @@ This integrates all verification types into a unified result.
 
 ## Acceptance Criteria
 
-- [ ] Artifact verification checks for referenced files and commits
-- [ ] Evidence requirements are intelligently inferred from step content
-- [ ] Artifact and evidence checking can be configured independently
+- [x] Artifact verification checks for referenced files (commits not implemented)
+- [ ] Evidence requirements are intelligently inferred from step content (intentionally not implemented - scope creep)
+- [x] Artifact and evidence checking can be configured independently
 - [ ] Git integration works correctly and handles errors gracefully
 
 ## Testing

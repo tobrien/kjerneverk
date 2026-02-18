@@ -61,10 +61,10 @@ This allows per-project configuration via config files and per-user/CI configura
 
 ## Acceptance Criteria
 
-- [ ] Configuration schema includes all verification options with proper defaults
-- [ ] Environment variables are supported for all verification settings
-- [ ] Backward compatibility is maintained - existing configs work unchanged
-- [ ] Schema validation provides clear error messages for invalid values
+- [x] Configuration schema includes all verification options with proper defaults
+- [x] Environment variables are supported for all verification settings
+- [x] Backward compatibility is maintained - existing configs work unchanged
+- [x] Schema validation provides clear error messages for invalid values
 
 ## Testing
 

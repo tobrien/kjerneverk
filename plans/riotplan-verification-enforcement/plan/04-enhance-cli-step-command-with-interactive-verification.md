@@ -112,11 +112,11 @@ This provides a clean interactive experience that shows users what's wrong and l
 
 ## Acceptance Criteria
 
-- [ ] CLI step complete command supports --force and --no-verify flags
-- [ ] Interactive mode prompts users with clear information about verification issues
-- [ ] Advisory mode shows warnings but doesn't block completion
-- [ ] Strict mode blocks completion unless --force is used
-- [ ] Error messages are clear and actionable
+- [x] CLI step complete command supports --force and --skip-verification flags (not --no-verify, but functionally equivalent)
+- [x] Interactive mode prompts users with clear information about verification issues
+- [x] Advisory mode shows warnings but doesn't block completion
+- [x] Strict mode blocks completion unless --force is used
+- [x] Error messages are clear and actionable
 
 ## Testing
 
