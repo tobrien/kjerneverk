@@ -1,62 +1,29 @@
 {
-	"folders": [
-		{
-			"name": "riotdoc",
-			"path": "riotdoc"
-		},
-		{
-			"name": "riotplan",
-			"path": "riotplan"
-		},
-		{
-			"name": "riotplan-catalyst",
-			"path": "riotplan-catalyst"
-		},
-		{
-			"name": "riotplan-vscode",
-			"path": "riotplan-vscode"
-		},
-		{
-			"name": "riotprompt",
-			"path": "riotprompt"
-		},
-		{
-			"name": "agentic",
-			"path": "agentic"
-		},
-		{
-			"name": "execution",
-			"path": "execution"
-		},
-		{
-			"name": "execution-anthropic",
-			"path": "execution-anthropic"
-		},
-		{
-			"name": "execution-gemini",
-			"path": "execution-gemini"
-		},
-		{
-			"name": "execution-openai",
-			"path": "execution-openai"
-		},
-		{
-			"name": "execution-sampling",
-			"path": "execution-sampling"
-		},
-		{
-			"name": "kjerneverk.github.io",
-			"path": "kjerneverk.github.io"
-		},
-		{
-			"name": "kjerneverk",
-			"path": "."
-		}
-	],
-	"settings": {
-		"git.autoRepositoryDetection": true,
-		"git.detectSubmodules": true,
-		"scm.repositories.visible": 20,
-		"diffEditor.codeLens": true
-	}
+  "folders": [
+    {"name": "riotdoc", "path": "riotdoc"},
+    {"name": "riotplan", "path": "riotplan"},
+    {"name": "riotplan-catalyst", "path": "riotplan-catalyst"},
+    {"name": "riotplan-vscode", "path": "riotplan-vscode"},
+    {"name": "riotprompt", "path": "riotprompt"},
+    {"name": "agentic", "path": "agentic"},
+    {"name": "execution", "path": "execution"},
+    {"name": "execution-anthropic", "path": "execution-anthropic"},
+    {"name": "execution-gemini", "path": "execution-gemini"},
+    {"name": "execution-openai", "path": "execution-openai"},
+    {"name": "execution-sampling", "path": "execution-sampling"},
+    {"name": "kjerneverk.github.io", "path": "kjerneverk.github.io"},
+    {"name": "kjerneverk", "path": "."}
+  ],
+  "settings": {
+    "git.autoRepositoryDetection": true,
+    "git.detectSubmodules": true,
+    "scm.repositories.visible": 20,
+    "diffEditor.codeLens": true,
+    "riotplan.serverUrl": "http://127.0.0.1:3002"
+  },
+  "extensions": {
+    "recommendations": [
+      "kjerneverk.riotplan-vscode"
+    ]
+  }
 }

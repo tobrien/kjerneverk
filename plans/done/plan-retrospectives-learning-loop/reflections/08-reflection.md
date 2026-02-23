@@ -1,9 +1,0 @@
-Writing these blog posts after implementing the feature was the right call. The posts are grounded in real implementation details and actual learnings from building the system, not theoretical speculation.
-
-What surprised me: How clearly the "bookend pattern" emerged during writing. It wasn't explicitly planned as a pattern, but when describing the natural model tier map, it became obvious that high-intelligence work happens at the boundaries (planning and reflection) with lighter work in the middle. This is a pattern worth naming and sharing.
-
-What went well: Both posts hit the target word count naturally without padding. The "Natural Model Tier Map" post connects the abstract pattern to concrete RiotPlan implementation. The "Self-Reflection" post uses real examples from the retrospective prompt design to illustrate what genuine reflection looks like vs. templated responses.
-
-What could be done differently: The posts are currently in the plan's blog/ directory. Task 8.3 asked about publication location but didn't make a final decision. The user should decide whether these go to kjerneverk.github.io, the riotplan docs/ directory, or elsewhere. For now, they're standalone markdown files ready to be moved.
-
-What the retrospective generation should know: These blog posts document the philosophy and patterns behind the retrospective feature. They explain WHY the feature is designed this way (genuine reflection requires high-tier models, full context, and open-ended prompting) and HOW it fits into the broader learning loop (retrospectives inform future plans). When generating the plan retrospective, reference these posts as evidence that the implementation matches the stated philosophy.
