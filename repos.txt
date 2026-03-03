@@ -2,12 +2,24 @@
 # Add one repository URL per line
 # Lines starting with # are comments and will be ignored
 
-https://github.com/kjerneverk/riotdoc.git
+# kjerneverk repositories
+https://github.com/kjerneverk/riotplan-vscode.git
 https://github.com/kjerneverk/riotplan.git
+https://github.com/kjerneverk/riotplan-catalyst.git
+https://github.com/kjerneverk/riotdoc.git
 https://github.com/kjerneverk/riotprompt.git
-https://github.com/kjerneverk/agentic.git
-https://github.com/kjerneverk/execution.git
-https://github.com/kjerneverk/execution-anthropic.git
-https://github.com/kjerneverk/execution-gemini.git
-https://github.com/kjerneverk/execution-openai.git
 https://github.com/kjerneverk/kjerneverk.github.io.git
+https://github.com/kjerneverk/execution-sampling.git
+https://github.com/kjerneverk/execution-openai.git
+https://github.com/kjerneverk/execution-gemini.git
+https://github.com/kjerneverk/execution-anthropic.git
+https://github.com/kjerneverk/execution.git
+https://github.com/kjerneverk/agentic.git
+https://github.com/kjerneverk/riotplan-format.git
+https://github.com/kjerneverk/templates.git
+https://github.com/kjerneverk/history.git
+https://github.com/kjerneverk/commands-step.git
+https://github.com/kjerneverk/renderer.git
+https://github.com/kjerneverk/dashboard.git
+https://github.com/kjerneverk/prompts.git
+
