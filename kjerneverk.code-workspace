@@ -19,7 +19,7 @@
     "git.detectSubmodules": true,
     "scm.repositories.visible": 20,
     "diffEditor.codeLens": true,
-    "riotplan.serverUrl": "http://127.0.0.1:3001"
+    "riotplan.serverUrl": "https://riotplan-mcp-598171812119.us-central1.run.app"
   },
   "extensions": {
     "recommendations": [
