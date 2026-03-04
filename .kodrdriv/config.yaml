@@ -2,6 +2,9 @@ verbose: false
 model: gpt-5.2
 openaiReasoning: low
 openaiMaxOutputTokens: 10000
+excludedPatterns:
+  - "**/kjerneverk.github.io/**"
+  - "kjerneverk.github.io/**"
 contextDirectories:
   - .kodrdriv/context
 commit:
@@ -57,3 +60,10 @@ stopContext:
     - "Ullr"
     - "jafarisimran"
     - "Walmart"
+workspace:
+  excludeSubprojects:
+    - "doc/"
+    - "docs/"
+    - "examples/"
+    - "test-*/"
+    - "kjerneverk.github.io"
