@@ -5,6 +5,7 @@ openaiMaxOutputTokens: 10000
 excludedPatterns:
   - "**/kjerneverk.github.io/**"
   - "kjerneverk.github.io/**"
+  - "**/riotplan-e2e/**"
 contextDirectories:
   - .kodrdriv/context
 commit:

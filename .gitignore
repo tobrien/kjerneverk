@@ -12,8 +12,10 @@ history/
 node_modules/
 renderer/
 riotdoc/
+riotdoc-vscode/
 riotplan-catalyst/
 riotplan-cli/
+riotplan-e2e/
 riotplan/
 riotprompt-cli/
 riotplan-format/
