@@ -49,14 +49,16 @@
       "path": "kjerneverk.github.io"
     },
     {
-      "name": "kjerneverk",
-      "path": "."
-    },
-    {
+      "name": "riotplan-e2e",
       "path": "riotplan-e2e"
     },
     {
+      "name": "riotdoc-vscode",
       "path": "riotdoc-vscode"
+    },
+    {
+      "name": "kjerneverk",
+      "path": "."
     }
   ],
   "settings": {
