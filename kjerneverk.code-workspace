@@ -25,6 +25,10 @@
       "path": "riotplan-core"
     },
     {
+      "name": "riotplan-format",
+      "path": "riotplan-format"
+    },
+    {
       "name": "riotplan-e2e",
       "path": "riotplan-e2e"
     },
