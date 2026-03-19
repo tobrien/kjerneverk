@@ -13,12 +13,16 @@ node_modules/
 renderer/
 riotdoc/
 riotdoc-vscode/
+riotplan-ai/
 riotplan-catalyst/
 riotplan-core/
 riotplan-cli/
 riotplan-cloud/
 riotplan-e2e/
 riotplan-mcp-http/
+riotplan-render/
+riotplan-templates/
+riotplan-verify/
 riotplan/
 riotprompt-cli/
 riotplan-format/
