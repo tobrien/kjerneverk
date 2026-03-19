@@ -5,6 +5,14 @@
       "path": "riotdoc"
     },
     {
+      "name": "agentic",
+      "path": "agentic"
+    },
+    {
+      "name": "riotdoc-vscode",
+      "path": "riotdoc-vscode"
+    },
+    {
       "name": "riotplan",
       "path": "riotplan"
     },
@@ -13,16 +21,24 @@
       "path": "riotplan-catalyst"
     },
     {
+      "name": "riotplan-core",
+      "path": "riotplan-core"
+    },
+    {
+      "name": "riotplan-e2e",
+      "path": "riotplan-e2e"
+    },
+    {
       "name": "riotplan-vscode",
       "path": "riotplan-vscode"
     },
     {
-      "name": "riotprompt",
-      "path": "riotprompt"
+      "name": "riotplan-mcp-http",
+      "path": "riotplan-mcp-http"
     },
     {
-      "name": "agentic",
-      "path": "agentic"
+      "name": "riotprompt",
+      "path": "riotprompt"
     },
     {
       "name": "execution",
@@ -47,14 +63,6 @@
     {
       "name": "kjerneverk.github.io",
       "path": "kjerneverk.github.io"
-    },
-    {
-      "name": "riotplan-e2e",
-      "path": "riotplan-e2e"
-    },
-    {
-      "name": "riotdoc-vscode",
-      "path": "riotdoc-vscode"
     },
     {
       "name": "kjerneverk",

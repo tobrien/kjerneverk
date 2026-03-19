@@ -14,8 +14,10 @@ renderer/
 riotdoc/
 riotdoc-vscode/
 riotplan-catalyst/
+riotplan-core/
 riotplan-cli/
 riotplan-e2e/
+riotplan-mcp-http/
 riotplan/
 riotprompt-cli/
 riotplan-format/
