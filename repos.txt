@@ -20,8 +20,8 @@ https://github.com/kjerneverk/templates.git
 https://github.com/kjerneverk/history.git
 https://github.com/kjerneverk/commands-step.git
 https://github.com/kjerneverk/renderer.git
-https://github.com/kjerneverk/dashboard.git
 https://github.com/kjerneverk/riotplan-core.git
 https://github.com/kjerneverk/riotplan-render.git
 https://github.com/kjerneverk/riotplan-verify.git
+https://github.com/kjerneverk/prompts.git
 
