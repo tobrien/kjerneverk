@@ -1,64 +1,16 @@
 {
   "folders": [
     {
-      "name": "riotdoc",
-      "path": "riotdoc"
-    },
-    {
       "name": "agentic",
       "path": "agentic"
     },
     {
+      "name": "riotdoc",
+      "path": "riotdoc"
+    },
+    {
       "name": "riotdoc-vscode",
       "path": "riotdoc-vscode"
-    },
-    {
-      "name": "riotplan",
-      "path": "riotplan"
-    },
-    {
-      "name": "riotplan-ai",
-      "path": "riotplan-ai"
-    },
-    {
-      "name": "riotplan-catalyst",
-      "path": "riotplan-catalyst"
-    },
-    {
-      "name": "riotplan-cloud",
-      "path": "riotplan-cloud"
-    },
-    {
-      "name": "riotplan-core",
-      "path": "riotplan-core"
-    },
-    {
-      "name": "riotplan-format",
-      "path": "riotplan-format"
-    },
-    {
-      "name": "riotplan-e2e",
-      "path": "riotplan-e2e"
-    },
-    {
-      "name": "riotplan-mcp-http",
-      "path": "riotplan-mcp-http"
-    },
-    {
-      "name": "riotplan-render",
-      "path": "riotplan-render"
-    },
-    {
-      "name": "riotplan-templates",
-      "path": "riotplan-templates"
-    },
-    {
-      "name": "riotplan-verify",
-      "path": "riotplan-verify"
-    },
-    {
-      "name": "riotplan-vscode",
-      "path": "riotplan-vscode"
     },
     {
       "name": "riotprompt",

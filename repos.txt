@@ -13,16 +13,3 @@ https://github.com/kjerneverk/execution-sampling.git
 https://github.com/kjerneverk/riotprompt.git
 https://github.com/kjerneverk/riotdoc.git
 https://github.com/kjerneverk/riotdoc-vscode.git
-https://github.com/kjerneverk/riotplan-catalyst.git
-https://github.com/kjerneverk/riotplan-format.git
-https://github.com/kjerneverk/riotplan-core.git
-https://github.com/kjerneverk/riotplan-render.git
-https://github.com/kjerneverk/riotplan-templates.git
-https://github.com/kjerneverk/riotplan-verify.git
-https://github.com/kjerneverk/riotplan.git
-https://github.com/kjerneverk/riotplan-ai.git
-https://github.com/kjerneverk/riotplan-cloud.git
-https://github.com/kjerneverk/riotplan-mcp-http.git
-https://github.com/kjerneverk/riotplan-e2e.git
-https://github.com/kjerneverk/riotplan-osx.git
-https://github.com/kjerneverk/riotplan-vscode.git
