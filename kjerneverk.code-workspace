@@ -5,18 +5,6 @@
       "path": "agentic"
     },
     {
-      "name": "riotdoc",
-      "path": "riotdoc"
-    },
-    {
-      "name": "riotdoc-vscode",
-      "path": "riotdoc-vscode"
-    },
-    {
-      "name": "riotprompt",
-      "path": "riotprompt"
-    },
-    {
       "name": "execution",
       "path": "execution"
     },
@@ -35,6 +23,18 @@
     {
       "name": "execution-sampling",
       "path": "execution-sampling"
+    },
+    {
+      "name": "riotprompt",
+      "path": "riotprompt"
+    },
+    {
+      "name": "riotdoc",
+      "path": "riotdoc"
+    },
+    {
+      "name": "riotdoc-vscode",
+      "path": "riotdoc-vscode"
     },
     {
       "name": "kjerneverk.github.io",
